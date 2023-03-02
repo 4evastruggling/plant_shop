@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.quality {
+    display: flex;
+    flex-direction: column;
+
+    &-row {
+        display: flex;
+        margin-top: 143px;
+        margin-bottom: 16px;
+
+        .quality-pic {
+            max-height: 48px;
+            margin: 22px 16px 0px 16px;
+        }
+
+        .quality-name {
+            color: $only-green;
+            font-size: 16px;
+            width: 137px;
+            margin-top: 22px;
+            margin-right: 51px;
+            // line height is better set in responsive units, e.g. % because line-height in pixels can make you do extra work with writing responsive CSS
+            line-height: 1.5;
+        }
+    }
+
+    .quality-description {
+        font-size: 10px;
+        line-height: 1.6;
+        max-width: 236px;
+        margin-left: 16px;
+    }
+}
+
+.about-part {
+    margin-top: 76px;
+
+    .titles {
+        color: $only-brown;
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .plant-description {
+        color: $only-brown;
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 506px;
+        margin-top: 16px;
+        margin-bottom: 83px;
+    }
+
+    .one {
+        max-height: 250px;
+    }
+
+    .two {
+        max-height: 610px;
+        margin-left: 80px;
+    }
+}
+
+.visit {
+    background-color: $only-white;
+
+    .about-shop {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .move {
+        margin-left: 100px;
+    }
+
+    .titles2 {
+        color: $only-brown;
+        font-size: 40px;
+        line-height: 56px;
+        margin-top: 88px;
+    }
+
+    .shop {
+        background-color: $only-green;
+        padding: 10px 42px;
+        border: none;
+        text-align: center;
+        color: $only-white;
+        text-decoration: none;
+        margin-top: 32px;
+    }
+
+    .wall-plants {
+        display: flex;
+        margin-bottom: auto;
+    }
+}
