@@ -1,3 +1,5 @@
+
+
 .main {
     display: flex;
     min-height: 100vh;
@@ -23,9 +25,8 @@
             font-size: 16px;
             width: 137px;
             margin-top: 22px;
-            margin-right: 51px;
-            // line height is better set in responsive units, e.g. % because line-height in pixels can make you do extra work with writing responsive CSS
             line-height: 1.5;
+            font-weight: 700;
         }
     }
 
@@ -33,17 +34,14 @@
         font-size: 10px;
         line-height: 1.6;
         max-width: 236px;
-        margin-left: 16px;
     }
 }
 
 .about-part {
     margin-top: 76px;
 
-    .titles {
-        color: $only-brown;
-        font-size: 40px;
-        line-height: 56px;
+    .heading {
+        @include titles;
     }
 
     .plant-description {
@@ -60,8 +58,8 @@
     }
 
     .two {
-        max-height: 610px;
-        margin-left: 80px;
+        max-width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -71,7 +69,7 @@
     .about-shop {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 80px;
         align-items: flex-start;
         margin-left: 20px;
     }
@@ -80,21 +78,8 @@
         margin-left: 100px;
     }
 
-    .titles2 {
-        color: $only-brown;
-        font-size: 40px;
-        line-height: 56px;
-        margin-top: 88px;
-    }
-
-    .shop {
-        background-color: $only-green;
-        padding: 10px 42px;
-        border: none;
-        text-align: center;
-        color: $only-white;
-        text-decoration: none;
-        margin-top: 32px;
+    .heading {
+        @include titles;
     }
 
     .wall-plants {
@@ -102,3 +87,10 @@
         margin-bottom: auto;
     }
 }
+
+ .shop-button {
+    @include button;
+    padding: 10px 42px;
+    margin-top: 32px;
+    font-size: 14px;
+ }

@@ -7,3 +7,18 @@ $only-white: #F3F4F6;
 * {
     font-family: $font-one;
 }
+
+@mixin button {
+    background-color: $only-green;
+    border: none;
+    text-align: center;
+    color: $only-white;
+    text-decoration: none;
+}
+
+@mixin titles {
+    color: $only-brown;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+}

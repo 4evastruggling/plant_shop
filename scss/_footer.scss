@@ -1,4 +1,6 @@
 .contact {
+    margin-top: 80px;
+
     &-title {
     font-family: $font-two;
     color: black;
@@ -9,5 +11,25 @@
     &-description {
         font-family: $font-two;
         font-size: 14px;
+        line-height: 20px;
+        max-width: 250px;
+    }
+
+    .email {
+        margin-bottom: 18px;
+        max-width: 100%;
+    }
+
+    .email::placeholder {
+        font-family: $font-two;
+        font-size: 12px;
+    }
+
+    .submit-button {
+        @include button;
+        padding: 4px 12px;
+        font-size: 8px;
+        font-weight: 500px;
+
     }
 } 
