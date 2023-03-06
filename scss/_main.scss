@@ -1,9 +1,23 @@
-
-
 .main {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+.plant-gallery {
+
+    .container-buttons {
+        .swiper-button-prev {
+            background-color: $only-green;
+            color: $only-white;
+        }
+        .swiper-button-next {
+            background-color: $only-green;
+            color: $only-white;
+        }
+
+    }
+
 }
 
 .quality {
@@ -88,9 +102,9 @@
     }
 }
 
- .shop-button {
+.shop-button {
     @include button;
     padding: 10px 42px;
     margin-top: 32px;
     font-size: 14px;
- }
+}

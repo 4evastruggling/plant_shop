@@ -8,6 +8,7 @@
     <title>Plant shop</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="64x64">
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32">
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -15,128 +16,156 @@
 
 <body class="main">
     <div class="content">
-        <section class="qualities">
+        <section class="plant-gallery">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <source srcset="img/swiper-img.webp" type="image/webp">
+                        <img src="img/swiper-img.png" class="swiper-img" loading="lazy" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <source srcset="img/swiper-img.webp" type="image/webp">
+                        <img src="img/swiper-img.png" class="swiper-img" loading="lazy" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <source srcset="img/swiper-img.webp" type="image/webp">
+                        <img src="img/swiper-img.png" class="swiper-img" loading="lazy" alt="">
+                    </div>
+                </div>
+                <div class="container-buttons">
+                    <div class="swiper-button-prev">Previous</div>
+                    <div class="swiper-button-next">Next</div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    </section>
+
+
+
+    <section class="qualities">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="quality">
+                        <div class="quality-row">
+                            <div class="quality-pic">
+                                <img src="img/quality1.svg" class="quality-description" loading="lazy" alt="">
+                            </div>
+                            <p class="quality-name">Fast<br> Delivery</p>
+                        </div>
+                        <div class="quality-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="quality">
+                        <div class="quality-row">
+                            <div class="quality-pic">
+                                <img src="img/quality2.svg" class="quality-description" loading="lazy" alt="">
+                            </div>
+                            <p class="quality-name">Great Customer<br> Service</p>
+                        </div>
+                        <div class="quality-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="quality">
+                        <div class="quality-row">
+                            <div class="quality-pic">
+                                <img src="img/quality3.svg" class="quality-description" loading="lazy" alt="">
+                            </div>
+                            <p class="quality-name">Original<br> Plants</p>
+                        </div>
+                        <div class="quality-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="quality">
+                        <div class="quality-row">
+                            <div class="quality-pic">
+                                <img src="img/quality4.svg" class="quality-description" loading="lazy" alt="">
+                            </div>
+                            <p class="quality-name">Affordable<br> Price</p>
+                        </div>
+                        <div class="quality-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-plants">
+        <div class="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <div class="quality">
-                            <div class="quality-row">
-                                <div class="quality-pic">
-                                    <img src="img/quality1.svg" class="quality-description" loading="lazy" alt="">
-                                </div>
-                                <p class="quality-name">Fast<br> Delivery</p>
-                            </div>
-                            <div class="quality-description">
-                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                            </div>
+                    <div class="col-sm-6">
+                        <div class="about-part">
+                            <h2 class="heading">
+                                Buy more plants, it<br> helps you to be relaxed
+                            </h2>
+                            <p class="plant-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida
+                                aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non
+                                mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus
+                                dignissim.
+                            </p>
+                            <picture>
+                                <source srcset="img/wall-plants2.png" type="image/webp">
+                                <img src="img/wall-plants2.png" class="wall-plants one" loading="lazy" alt="">
+                            </picture>
                         </div>
                     </div>
-
-                    <div class="col-sm-3">
-                        <div class="quality">
-                            <div class="quality-row">
-                                <div class="quality-pic">
-                                    <img src="img/quality2.svg" class="quality-description" loading="lazy" alt="">
-                                </div>
-                                <p class="quality-name">Great Customer<br> Service</p>
-                            </div>
-                            <div class="quality-description">
-                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="quality">
-                            <div class="quality-row">
-                                <div class="quality-pic">
-                                    <img src="img/quality3.svg" class="quality-description" loading="lazy" alt="">
-                                </div>
-                                <p class="quality-name">Original<br> Plants</p>
-                            </div>
-                            <div class="quality-description">
-                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="quality">
-                            <div class="quality-row">
-                                <div class="quality-pic">
-                                    <img src="img/quality4.svg" class="quality-description" loading="lazy" alt="">
-                                </div>
-                                <p class="quality-name">Affordable<br> Price</p>
-                            </div>
-                            <div class="quality-description">
-                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                            </div>
+                    <div class="col-sm-6">
+                        <div class="about-part">
+                            <picture>
+                                <source srcset="img/wall-plants.webp" type="image/webp">
+                                <img src="img/wall-plants.png" class="wall-plants two" loading="lazy" alt="">
+                            </picture>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="about-plants">
-            <div class="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="about-part">
-                                <h2 class="heading">
-                                    Buy more plants, it<br> helps you to be relaxed
-                                </h2>
-                                <p class="plant-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida
-                                    aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non
-                                    mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus
-                                    dignissim.
-                                </p>
-                                <picture>
-                                    <source srcset="img/wall-plants2.png" type="image/webp">
-                                    <img src="img/wall-plants2.png" class="wall-plants one" loading="lazy" alt="">
-                                </picture>
-                            </div>
+        </div>
+    </section>
+    <section class="visit-shop">
+        <div class="visit">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="about-shop move">
+                            <h2 class="heading">
+                                Get your favourite plant from our shop now
+                            </h2>
+                            <a class="shop-button" href="/">Visit shop</a>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="about-part">
-                                <picture>
-                                    <source srcset="img/wall-plants.webp" type="image/webp">
-                                    <img src="img/wall-plants.png" class="wall-plants two" loading="lazy" alt="">
-                                </picture>
-                            </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="about-shop">
+                            <picture>
+                                <source srcset="img/one-plant.webp" type="image/webp">
+                                <img src="img/one-plant.png" class="wall-plants" loading="lazy" alt="">
+                            </picture>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="visit-shop">
-            <div class="visit">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="about-shop move">
-                                <h2 class="heading">
-                                    Get your favourite plant from our shop now
-                                </h2>
-                                <a class="shop-button" href="/">Visit shop</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="about-shop">
-                                <picture>
-                                    <source srcset="img/one-plant.webp" type="image/webp">
-                                    <img src="img/one-plant.png" class="wall-plants" loading="lazy" alt="">
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
     </div>
 
     <footer class="end">
@@ -183,6 +212,8 @@
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/plugin.js"></script>
 </body>
 
 </html>
