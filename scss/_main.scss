@@ -5,19 +5,31 @@
 }
 
 .plant-gallery {
+    
+    .swiper.part {
+        display: flex;
+        flex-direction: row;
 
+    }
     .container-buttons {
+        position: absolute;
+       
+
         .swiper-button-prev {
-            background-color: $only-green;
-            color: $only-white;
+            background-color: $only-white;
+            color: $only-green;
+            font-size: 24px;
+            font-weight: 500;
+            padding: 50px 80px;
         }
+
         .swiper-button-next {
             background-color: $only-green;
             color: $only-white;
+            font-size: 24px;
+            font-weight: 500;
         }
-
     }
-
 }
 
 .quality {
@@ -48,6 +60,26 @@
         font-size: 10px;
         line-height: 1.6;
         max-width: 236px;
+    }
+}
+
+.plant-shop {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    .plant-bold-text {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .small {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .plant {
+        max-width: 20%;
     }
 }
 
